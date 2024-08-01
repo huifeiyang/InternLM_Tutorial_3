@@ -16,7 +16,7 @@ def wordcount(s):
     # 字符串分割成单词列表
     words = s_lowercase.split()
 
-"""  """    word_count = {}
+    word_count = {}
 
     # 遍历和计数
     for word in words:
