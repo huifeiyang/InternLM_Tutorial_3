@@ -1,0 +1,66 @@
+Index: 1_入门/Python/DEBUG笔记/Readme.md
+===================================================================
+diff --git a/1_入门/Python/DEBUG笔记/Readme.md b/1_入门/Python/DEBUG笔记/Readme.md
+new file mode 100644
+--- /dev/null	
++++ b/1_入门/Python/DEBUG笔记/Readme.md	
+@@ -0,0 +1,14 @@
++在关键的变量设置DEBUG点，跟踪程序运行
++——去标点
++——转小写
++——单词表分割
++
++跟踪流程，包括中间变量更新情况
++
++输出发现缩写问题
++
++修正代码，增加字符替换逻辑
++
++输出测试
++
++
+Index: 1_入门/Python/wordcount.py
+===================================================================
+diff --git a/1_入门/Python/wordcount.py b/1_入门/Python/wordcount.py
+new file mode 100644
+--- /dev/null	
++++ b/1_入门/Python/wordcount.py	
+@@ -0,0 +1,37 @@
++import string
++
++
++def wordcount(s):
++
++    #缩写复原
++    s_no_abbreviation = s.replace("'s"," is")
++
++    # 去除标点符号
++    translator = str.maketrans('', '', string.punctuation)
++    s_no_punctuation = s_no_abbreviation.translate(translator)
++
++    # 字符串转换成小写
++    s_lowercase = s_no_punctuation.lower()
++
++    # 字符串分割成单词列表
++    words = s_lowercase.split()
++
++    word_count = {}
++
++    # 遍历和计数
++    for word in words:
++        if word in word_count:
++            word_count[word] += 1
++        else:
++            word_count[word] = 1
++
++    return word_count
++
++def main():
++    inputword=input("请录入英文短句，不区分大小写:")
++    count=wordcount(inputword)
++    print (count)
++
++
++if __name__ == '__main__':
++    main()
+\ No newline at end of file
