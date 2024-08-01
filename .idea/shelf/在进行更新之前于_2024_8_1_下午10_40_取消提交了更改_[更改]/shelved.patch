@@ -1,0 +1,383 @@
+Index: .idea/misc.xml
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+deleted file mode 100644
+--- a/.idea/misc.xml	(revision bc983fb2a28240b27a16a86070f424bae8e0d140)
++++ /dev/null	(revision bc983fb2a28240b27a16a86070f424bae8e0d140)
+@@ -1,4 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.9" project-jdk-type="Python SDK" />
+-</project>
+\ No newline at end of file
+Index: .idea/workspace.xml
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+deleted file mode 100644
+--- a/.idea/workspace.xml	(revision bc983fb2a28240b27a16a86070f424bae8e0d140)
++++ /dev/null	(revision bc983fb2a28240b27a16a86070f424bae8e0d140)
+@@ -1,167 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="AutoImportSettings">
+-    <option name="autoReloadType" value="SELECTIVE" />
+-  </component>
+-  <component name="ChangeListManager">
+-    <list default="true" id="e90dc49b-9845-41b3-b7c9-900c52cbd0b1" name="更改" comment="huifeiyang" />
+-    <option name="SHOW_DIALOG" value="false" />
+-    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+-    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+-    <option name="LAST_RESOLUTION" value="IGNORE" />
+-  </component>
+-  <component name="FileTemplateManagerImpl">
+-    <option name="RECENT_TEMPLATES">
+-      <list>
+-        <option value="Python Script" />
+-      </list>
+-    </option>
+-  </component>
+-  <component name="Git.Settings">
+-    <option name="PUSH_AUTO_UPDATE" value="true" />
+-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+-  </component>
+-  <component name="GitHubPullRequestSearchHistory">{
+-  &quot;lastFilter&quot;: {
+-    &quot;state&quot;: &quot;OPEN&quot;,
+-    &quot;assignee&quot;: &quot;huifeiyang&quot;
+-  }
+-}</component>
+-  <component name="GithubPullRequestsUISettings">{
+-  &quot;selectedUrlAndAccountId&quot;: {
+-    &quot;url&quot;: &quot;https://github.com/huifeiyang/InternLM_Tutorial_3.git&quot;,
+-    &quot;accountId&quot;: &quot;53775323-2f6f-45d3-b159-c7bd3f68c309&quot;
+-  }
+-}</component>
+-  <component name="ProjectColorInfo">{
+-  &quot;associatedIndex&quot;: 2
+-}</component>
+-  <component name="ProjectId" id="2jrHeVcRe2V30xnpcLXsHX8Gnj6" />
+-  <component name="ProjectLevelVcsManager">
+-    <ConfirmationsSetting value="2" id="Add" />
+-  </component>
+-  <component name="ProjectViewState">
+-    <option name="hideEmptyMiddlePackages" value="true" />
+-    <option name="showLibraryContents" value="true" />
+-  </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "Python.demo.executor": "Run",
+-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "git-widget-placeholder": "master",
+-    "ignore.virus.scanning.warn.message": "true",
+-    "last_opened_file_path": "D:/pythonproject/InternLM_Tutorial_3/1_入门/Python/DEBUG笔记",
+-    "node.js.detected.package.eslint": "true",
+-    "node.js.detected.package.stylelint": "true",
+-    "node.js.detected.package.tslint": "true",
+-    "node.js.selected.package.eslint": "(autodetect)",
+-    "node.js.selected.package.stylelint": "",
+-    "node.js.selected.package.tslint": "(autodetect)",
+-    "nodejs_package_manager_path": "npm",
+-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable",
+-    "vue.rearranger.settings.migration": "true"
+-  }
+-}]]></component>
+-  <component name="PyConsoleOptionsProvider">
+-    <option name="myPythonConsoleState">
+-      <console-settings module-name="InternLM_Tutorial_3" is-module-sdk="true">
+-        <option name="myUseModuleSdk" value="true" />
+-        <option name="myModuleName" value="InternLM_Tutorial_3" />
+-      </console-settings>
+-    </option>
+-  </component>
+-  <component name="RecentsManager">
+-    <key name="CopyFile.RECENT_KEYS">
+-      <recent name="D:\pythonproject\InternLM_Tutorial_3\1_入门\Python\DEBUG笔记" />
+-      <recent name="D:\pythonproject\InternLM_Tutorial_3\1_入门\Python" />
+-      <recent name="D:\pythonproject\InternLM_Tutorial_3\1_入门\Linux" />
+-    </key>
+-  </component>
+-  <component name="SharedIndexes">
+-    <attachedChunks>
+-      <set>
+-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PY-241.18034.82" />
+-        <option value="bundled-python-sdk-975db3bf15a3-2767605e8bc2-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.18034.82" />
+-      </set>
+-    </attachedChunks>
+-  </component>
+-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+-  <component name="SshConsoleOptionsProvider">
+-    <option name="myEncoding" value="UTF-8" />
+-    <option name="myConnectionType" value="REMOTE_SDK" />
+-    <option name="myConnectionId" value="root@ssh.intern-ai.org.cn:41626/bin/python3" />
+-  </component>
+-  <component name="SvnConfiguration">
+-    <configuration>C:\Users\YS\AppData\Roaming\Subversion</configuration>
+-  </component>
+-  <component name="TaskManager">
+-    <task active="true" id="Default" summary="默认任务">
+-      <changelist id="e90dc49b-9845-41b3-b7c9-900c52cbd0b1" name="更改" comment="" />
+-      <created>1722138370798</created>
+-      <option name="number" value="Default" />
+-      <option name="presentableId" value="Default" />
+-      <updated>1722138370798</updated>
+-      <workItem from="1722141370054" duration="39000" />
+-      <workItem from="1722141413809" duration="6861000" />
+-      <workItem from="1722519183977" duration="3003000" />
+-      <workItem from="1722522292383" duration="463000" />
+-    </task>
+-    <task id="LOCAL-00001" summary="test">
+-      <option name="closed" value="true" />
+-      <created>1722145890684</created>
+-      <option name="number" value="00001" />
+-      <option name="presentableId" value="LOCAL-00001" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1722145890684</updated>
+-    </task>
+-    <task id="LOCAL-00002" summary="test">
+-      <option name="closed" value="true" />
+-      <created>1722146053839</created>
+-      <option name="number" value="00002" />
+-      <option name="presentableId" value="LOCAL-00002" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1722146053839</updated>
+-    </task>
+-    <task id="LOCAL-00003" summary="test">
+-      <option name="closed" value="true" />
+-      <created>1722147589976</created>
+-      <option name="number" value="00003" />
+-      <option name="presentableId" value="LOCAL-00003" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1722147589976</updated>
+-    </task>
+-    <task id="LOCAL-00004" summary="huifeiyang">
+-      <option name="closed" value="true" />
+-      <created>1722522384050</created>
+-      <option name="number" value="00004" />
+-      <option name="presentableId" value="LOCAL-00004" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1722522384050</updated>
+-    </task>
+-    <option name="localTasksCounter" value="5" />
+-    <servers />
+-  </component>
+-  <component name="TypeScriptGeneratedFilesManager">
+-    <option name="version" value="3" />
+-  </component>
+-  <component name="Vcs.Log.Tabs.Properties">
+-    <option name="TAB_STATES">
+-      <map>
+-        <entry key="MAIN">
+-          <value>
+-            <State />
+-          </value>
+-        </entry>
+-      </map>
+-    </option>
+-  </component>
+-  <component name="VcsManagerConfiguration">
+-    <MESSAGE value="test" />
+-    <MESSAGE value="huifeiyang" />
+-    <option name="LAST_COMMIT_MESSAGE" value="huifeiyang" />
+-  </component>
+-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+-    <SUITE FILE_PATH="coverage/InternLM_Tutorial_3$demo.coverage" NAME="demo 覆盖结果" MODIFIED="1722145702533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1_入门/Linux" />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: .idea/vcs.xml
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+deleted file mode 100644
+--- a/.idea/vcs.xml	(revision bc983fb2a28240b27a16a86070f424bae8e0d140)
++++ /dev/null	(revision bc983fb2a28240b27a16a86070f424bae8e0d140)
+@@ -1,6 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="VcsDirectoryMappings">
+-    <mapping directory="" vcs="Git" />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: .idea/shelf/_2024_8_1_10_16____1.xml
+===================================================================
+diff --git a/.idea/shelf/_2024_8_1_10_16____1.xml b/.idea/shelf/_2024_8_1_10_16____1.xml
+deleted file mode 100644
+--- a/.idea/shelf/_2024_8_1_10_16____1.xml	(revision bc983fb2a28240b27a16a86070f424bae8e0d140)
++++ /dev/null	(revision bc983fb2a28240b27a16a86070f424bae8e0d140)
+@@ -1,44 +0,0 @@
+-<changelist name="在进行更新之前于_2024_8_1_下午10_16_取消提交了更改_[更改]1" date="1722522553217" recycled="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2024_8_1_下午10_16_取消提交了更改_[更改]1/shelved.patch" />
+-  <option name="DESCRIPTION" value="在进行更新之前于 2024/8/1 下午10:16 取消提交了更改 [更改]" />
+-  <binary>
+-    <option name="BEFORE_PATH" />
+-    <option name="AFTER_PATH" value="1_入门/Python/DEBUG笔记/3_发现问题.png" />
+-    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2024_8_1_下午10_16_取消提交了更改_[更改]1/3_发现问题.png" />
+-  </binary>
+-  <binary>
+-    <option name="BEFORE_PATH" />
+-    <option name="AFTER_PATH" value="1_入门/Python/DEBUG笔记/1_设置断点.png" />
+-    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2024_8_1_下午10_16_取消提交了更改_[更改]1/1_设置断点.png" />
+-  </binary>
+-  <binary>
+-    <option name="BEFORE_PATH" />
+-    <option name="AFTER_PATH" value="1_入门/Python/DEBUG笔记/5_输出展示.png" />
+-    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2024_8_1_下午10_16_取消提交了更改_[更改]1/5_输出展示.png" />
+-  </binary>
+-  <binary>
+-    <option name="BEFORE_PATH" />
+-    <option name="AFTER_PATH" value="1_入门/Python/DEBUG笔记/4_修正代码.png" />
+-    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2024_8_1_下午10_16_取消提交了更改_[更改]1/4_修正代码.png" />
+-  </binary>
+-  <binary>
+-    <option name="BEFORE_PATH" />
+-    <option name="AFTER_PATH" value="1_入门/Python/DEBUG笔记/2_跟踪流程.png" />
+-    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2024_8_1_下午10_16_取消提交了更改_[更改]1/2_跟踪流程.png" />
+-  </binary>
+-  <binary>
+-    <option name="BEFORE_PATH" />
+-    <option name="AFTER_PATH" value="1_入门/Linux/2_VScode连接.png" />
+-    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2024_8_1_下午10_16_取消提交了更改_[更改]1/2_VScode连接.png" />
+-  </binary>
+-  <binary>
+-    <option name="BEFORE_PATH" value="1_入门/Linux/3_远程运行DEMO&amp;端口映射本地显示.png" />
+-    <option name="AFTER_PATH" value="1_入门/Linux/3_远程运行DEMO&amp;端口映射本地显示.png" />
+-    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2024_8_1_下午10_16_取消提交了更改_[更改]1/3_远程运行DEMO&amp;端口映射本地显示.png" />
+-  </binary>
+-  <binary>
+-    <option name="BEFORE_PATH" value="1_入门/Linux/4_conda环境配置.png" />
+-    <option name="AFTER_PATH" value="1_入门/Linux/4_conda环境配置.png" />
+-    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2024_8_1_下午10_16_取消提交了更改_[更改]1/4_conda环境配置.png" />
+-  </binary>
+-</changelist>
+\ No newline at end of file
+Index: .idea/inspectionProfiles/profiles_settings.xml
+===================================================================
+diff --git a/.idea/inspectionProfiles/profiles_settings.xml b/.idea/inspectionProfiles/profiles_settings.xml
+deleted file mode 100644
+--- a/.idea/inspectionProfiles/profiles_settings.xml	(revision bc983fb2a28240b27a16a86070f424bae8e0d140)
++++ /dev/null	(revision bc983fb2a28240b27a16a86070f424bae8e0d140)
+@@ -1,6 +0,0 @@
+-<component name="InspectionProjectProfileManager">
+-  <settings>
+-    <option name="USE_PROJECT_PROFILE" value="false" />
+-    <version value="1.0" />
+-  </settings>
+-</component>
+\ No newline at end of file
+Index: .idea/shelf/_2024_8_1_10_16____.xml
+===================================================================
+diff --git a/.idea/shelf/_2024_8_1_10_16____.xml b/.idea/shelf/_2024_8_1_10_16____.xml
+deleted file mode 100644
+--- a/.idea/shelf/_2024_8_1_10_16____.xml	(revision bc983fb2a28240b27a16a86070f424bae8e0d140)
++++ /dev/null	(revision bc983fb2a28240b27a16a86070f424bae8e0d140)
+@@ -1,4 +0,0 @@
+-<changelist name="在进行更新之前于_2024_8_1_下午10_16_取消提交了更改_[更改]" date="1722521787343" recycled="false" toDelete="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2024_8_1_下午10_16_取消提交了更改_[更改]/shelved.patch" />
+-  <option name="DESCRIPTION" value="在进行更新之前于 2024/8/1 下午10:16 取消提交了更改 [更改]" />
+-</changelist>
+\ No newline at end of file
+Index: .idea/shelf/在进行更新之前于_2024_8_1_下午10_16_取消提交了更改_[更改]1/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/在进行更新之前于_2024_8_1_下午10_16_取消提交了更改_[更改]1/shelved.patch b/.idea/shelf/在进行更新之前于_2024_8_1_下午10_16_取消提交了更改_[更改]1/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/在进行更新之前于_2024_8_1_下午10_16_取消提交了更改_[更改]1/shelved.patch	(revision bc983fb2a28240b27a16a86070f424bae8e0d140)
++++ /dev/null	(revision bc983fb2a28240b27a16a86070f424bae8e0d140)
+@@ -1,66 +0,0 @@
+-Index: 1_入门/Python/DEBUG笔记/Readme.md
+-===================================================================
+-diff --git a/1_入门/Python/DEBUG笔记/Readme.md b/1_入门/Python/DEBUG笔记/Readme.md
+-new file mode 100644
+---- /dev/null	
+-+++ b/1_入门/Python/DEBUG笔记/Readme.md	
+-@@ -0,0 +1,14 @@
+-+在关键的变量设置DEBUG点，跟踪程序运行
+-+——去标点
+-+——转小写
+-+——单词表分割
+-+
+-+跟踪流程，包括中间变量更新情况
+-+
+-+输出发现缩写问题
+-+
+-+修正代码，增加字符替换逻辑
+-+
+-+输出测试
+-+
+-+
+-Index: 1_入门/Python/wordcount.py
+-===================================================================
+-diff --git a/1_入门/Python/wordcount.py b/1_入门/Python/wordcount.py
+-new file mode 100644
+---- /dev/null	
+-+++ b/1_入门/Python/wordcount.py	
+-@@ -0,0 +1,37 @@
+-+import string
+-+
+-+
+-+def wordcount(s):
+-+
+-+    #缩写复原
+-+    s_no_abbreviation = s.replace("'s"," is")
+-+
+-+    # 去除标点符号
+-+    translator = str.maketrans('', '', string.punctuation)
+-+    s_no_punctuation = s_no_abbreviation.translate(translator)
+-+
+-+    # 字符串转换成小写
+-+    s_lowercase = s_no_punctuation.lower()
+-+
+-+    # 字符串分割成单词列表
+-+    words = s_lowercase.split()
+-+
+-+    word_count = {}
+-+
+-+    # 遍历和计数
+-+    for word in words:
+-+        if word in word_count:
+-+            word_count[word] += 1
+-+        else:
+-+            word_count[word] = 1
+-+
+-+    return word_count
+-+
+-+def main():
+-+    inputword=input("请录入英文短句，不区分大小写:")
+-+    count=wordcount(inputword)
+-+    print (count)
+-+
+-+
+-+if __name__ == '__main__':
+-+    main()
+-\ No newline at end of file
+Index: .idea/deployment.xml
+===================================================================
+diff --git a/.idea/deployment.xml b/.idea/deployment.xml
+deleted file mode 100644
+--- a/.idea/deployment.xml	(revision bc983fb2a28240b27a16a86070f424bae8e0d140)
++++ /dev/null	(revision bc983fb2a28240b27a16a86070f424bae8e0d140)
+@@ -1,21 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="PublishConfigData">
+-    <serverData>
+-      <paths name="root@ssh.intern-ai.org.cn:41626 key">
+-        <serverdata>
+-          <mappings>
+-            <mapping local="$PROJECT_DIR$" web="/" />
+-          </mappings>
+-        </serverdata>
+-      </paths>
+-      <paths name="root@ssh.intern-ai.org.cn:41626 key (2)">
+-        <serverdata>
+-          <mappings>
+-            <mapping local="$PROJECT_DIR$" web="/" />
+-          </mappings>
+-        </serverdata>
+-      </paths>
+-    </serverData>
+-  </component>
+-</project>
+\ No newline at end of file
+diff --git a/.idea/shelf/在进行更新之前于_2024_8_1_下午10_16_取消提交了更改_[更改]/shelved.patch b/.idea/shelf/在进行更新之前于_2024_8_1_下午10_16_取消提交了更改_[更改]/shelved.patch
+deleted file mode 100644
