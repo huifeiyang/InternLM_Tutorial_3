@@ -66,6 +66,7 @@ while True:
 python cli_demo.py
 ```
 稍等片刻后，出现"User"就可以愉快的对话了，不想玩了就输入"exit"退出程序
+
 ![运行示例](bash 1.8B.PNG)
 
 为了更好的体验，我们可以采用web的方式来进行交互。
