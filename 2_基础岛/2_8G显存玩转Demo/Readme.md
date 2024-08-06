@@ -81,6 +81,7 @@ cd /root/demo
 streamlit run /root/demo/Tutorial/tools/streamlit_demo.py --server.address 127.0.0.1 --server.port 6006
 ```
 如果你使用的是VSCode，会提示进行端口映射，映射后就可以在本地浏览器互动体验了，否则需要在本地进行端口映射配置
+
 ![运行示例](Streamlit Web Demo 1.8B.PNG)
 
 # 3、LMDeploy+视觉语言大模型
