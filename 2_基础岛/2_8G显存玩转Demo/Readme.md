@@ -67,7 +67,7 @@ python cli_demo.py
 ```
 稍等片刻后，出现"User"就可以愉快的对话了，不想玩了就输入"exit"退出程序
 
-![运行示例](bash 1.8B.PNG)
+![运行示例](bash_1.8B.PNG)
 
 为了更好的体验，我们可以采用web的方式来进行交互。
 首先要下载一个仓库
@@ -82,7 +82,7 @@ streamlit run /root/demo/Tutorial/tools/streamlit_demo.py --server.address 127.0
 ```
 如果你使用的是VSCode，会提示进行端口映射，映射后就可以在本地浏览器互动体验了，否则需要在本地进行端口映射配置
 
-![运行示例](Streamlit Web Demo 1.8B.PNG)
+![运行示例](Streamlit_Web_Demo_1.8B.PNG)
 
 # 3、LMDeploy+视觉语言大模型
 下面就快速的体验一下 使用LMDeploy来部署InternLM-XComposer2与InternVL2-2B两个视觉语言大模型。
