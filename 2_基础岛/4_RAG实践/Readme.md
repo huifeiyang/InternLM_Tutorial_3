@@ -26,10 +26,10 @@ touch download_hf.py
 ```commandline
 import os
 
-# 设置环境变量
+#设置环境变量
 os.environ['HF_ENDPOINT'] = 'https://hf-mirror.com'
 
-# 下载模型
+#下载模型
 os.system('huggingface-cli download --resume-download sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 --local-dir /root/model/sentence-transformer')
 ```
 下载 Sentence Transformer 模型
@@ -148,7 +148,7 @@ print(response)
 虽然回答错误，但是已经具备了从知识库中提取信息的服务能力
 
 
-# 3、web端构建
+# 4、web端构建
 为方便交互，构建WEB服务进行测试。
 安装依赖：
 ```commandline
