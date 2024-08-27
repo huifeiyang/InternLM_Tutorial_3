@@ -54,7 +54,9 @@ conda activate agent_camp3
 streamlit run examples/internlm2_agent_web_demo.py
 ```
 ![img.png](web_server.png)
+
 VScode会自动完成本地的端口映射
+
 本地浏览器通过127.0.0.1:8501登录进入
 
 # 4、测试Agent
@@ -76,6 +78,7 @@ PS：Lagent 中关于工具部分的介绍文档位于 https://lagent.readthedoc
 下面定义一个远程文生图的功能
 
 创建工具文件：
+
 ```commandline
 cd /root/agent_camp3/lagent
 touch lagent/actions/magicmaker.py
@@ -153,11 +156,14 @@ class MagicMaker(BaseAction):
 我们可以发现在目录内还提供了其他等工具能力。
 
 修改 /root/agent_camp3/lagent/examples/internlm2_agent_web_demo.py 来适配我们的自定义工具
+
 参考如下：
 ![img.png](pic.png)
 
 在下面同时增加MagicMaker()和IPythonInterpreter()
+
 参考如下
+
 ![img.png](python.png)
 
 最后参考3，重新启动WEB_server。
@@ -171,15 +177,19 @@ class MagicMaker(BaseAction):
 测试画画：
 
 输入：画一张万马奔腾的水墨画
+
 输出：
 ![img.png](test1.png)
 
 上传一个表格文件，统计分析
+
 输入：表格中不合格的单位有多少？
+
 输出：生成代码，尝试运行（系统缺少相关依赖，但说明在调用）
 ![img.png](pythoninterpreter.png)
 
 输入：帮我找出LeNet-5的原始论文
+
 输出：
 ![img.png](img.png)
 
