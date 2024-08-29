@@ -30,7 +30,7 @@ OK 到此结束
 
 所以huggingface为我们考虑好了，进入空间配置界面，点击“Settings”
 
-或者如下链接：https://huggingface.co/spaces//<你的名字>/<仓库名称>/settings
+或者如下链接：https://huggingface.co/spaces/<你的名字>/<仓库名称>/settings
 
 在“Variables and secrets”中创建新第三方密钥
 
